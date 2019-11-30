@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<title>This is the site title</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico in the root directory -->
+	<link rel="icon" href="images/icons/logo.png" type="image/x-icon">
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<!-- Fontawsome css -->
+	<link rel="stylesheet" type="text/css" href="accets/fontawesome/css/all.min.css">
+	<!-- Owl slider css -->
+	<link rel="stylesheet" type="text/css" href="accets/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="accets/css/owl.theme.default.min.css">
+	<!-- Animate css -->
+	<link rel="stylesheet" type="text/css" href="accets/css/animate.min.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" href="accets/css/main.css">
+	<link rel="stylesheet" href="accets/css/responsive.css">
+</head>
+
+<body id="body">
+	<!--[if lte IE 9]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+	
+	<!-- Preloading screen -->
+<div class="loading-screen position-fixed w-100 h-100">
+	<svg>
+		<text transform="matrix(1 0 0 1 215.75 488)" class="st">LOADING...</text>
+	</svg>
+</div>
+<!-- Main section start from here -->
+	<div class="container-fluid px-0">
+		<!-- Nav menu -->
+		<section class="main-menu">
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top w-100">
+					<div class="container">
+					<!-- Brand -->
+					<a class="navbar-brand zilla-slab" href="#">
+						<img class="site-logo mr-2" src="images/icons/logo.png" alt="site-icon"/>twist</a>
+
+					<!-- Toggler/collapsibe Button -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<!-- <span class="navbar-toggler-icon"></span> -->
+						<i class="fas fa-bars text-secondary"></i>
+					</button>
+
+					<!-- Navbar links -->
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<div class="row w-100">
+							<div class="col-sm-10">
+								<ul class="navbar-nav offset-0 offset-md-4">
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#body">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#about">About</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#services">Services</a>
+									</li> 
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#works">Work</a>
+									</li> 
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#">Page</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#">Blog</a>
+									</li>  
+									<li class="nav-item">
+										<a class="nav-link zilla-slab text-light" href="#">Contact</a>
+									</li> 
+								</ul>
+							</div>
+							<div class="col-sm-2">
+								<!-- Navbar search icon -->
+								<div class="search-section text-center">
+									<div class="search-icon">
+										<i class="fas fa-search text-light text-right" data-toggle="modal" data-target="#searchModal"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</nav>
+		</section>
+		<!-- Banner sldier section -->
+		<section class="hero-section">
+			<div id="demo" class="carousel slide pb-sm-5">
+				<div class="carousel-inner">
+					<!-- Slider parts 1 -->
+					<div class="carousel-item active">
+						<img src="images/hero_bg_1.jpg" alt="hero_bg_1.jpg" class="w-100 position-relative">
+						<!-- Image filter -->
+						<div class="img-filter position-absolute w-100 h-100"></div>
+						<!-- Slider caption -->
+						<div class="carousel-caption top-1">
+							<h1 class="zilla-slab text-light wow bounceInLeft">Creative <i>corporate</i> agency<br>your <i>dreams</i> come true.</h1>
+							<!-- Slider video section -->
+							<div class="carousel-video m-auto bg-dark position-relative">
+								<img src="images/video_bg.jpg" alt="video_bg" class="w-100 h-100">
+								<!-- Slider video icon -->
+								<div class="video-icon position-absolute">
+									<a href="#"><img src="images/icons/video_pause_play.png" alt="video_icon"></a>
+								</div>
+							</div>
+							<button class="btn btn-primary twist-btn mt-4 zilla-slab">Our Services</button>
+						</div>
+					</div>
+					<!-- Slider parts 2 -->
+					<div class="carousel-item">
+						<img src="images/hero_bg_2.jpg" alt="hero_bg_2.jpg" class="w-100 position-relative">
+						<!-- Image filter -->
+						<div class="img-filter position-absolute w-100 h-100"></div>
+						<!-- Slider caption -->
+						<div class="carousel-caption top-2">
+							<h1 class="zilla-slab text-light wow bounceInLeft">There are <i>no</i><br>secrets to <i>success</i></h1>
+							<button class="btn btn-primary twist-btn mt-4 zilla-slab">Our Services</button>
+						</div>   
+					</div>
+					<!-- Slider parts 3 -->
+					<div class="carousel-item">
+						<img src="images/hero_bg_3.jpg" alt="hero_bg_3.jpg" class="w-100 position-relative">
+						<!-- Image filter -->
+						<div class="img-filter position-absolute w-100 h-100"></div>
+						<!-- Slider caption -->
+						<div class="carousel-caption top-2">
+							<h1 class="zilla-slab text-light wow bounceInLeft">Great things in <i>business</i><br>are never <i>done</i> by one person. </h1>
+							<!-- Slider video section -->
+							<div class="carousel-video m-auto bg-dark position-relative">
+								<img src="images/video_bg.jpg" alt="video_bg" class="w-100 h-100">
+								<!-- Slider video icon -->
+								<div class="video-icon position-absolute">
+									<a href="#"><img src="images/icons/video_pause_play.png" alt="video_icon"></a>
+								</div>
+							</div>
+						</div>    
+					</div>
+				</div>
+				<!-- Prev next button -->
+				<a class="carousel-control-prev" href="#demo" data-slide="prev">
+					<i class="fas fa-arrow-left"></i>
+				</a>
+				<a class="carousel-control-next" href="#demo" data-slide="next">
+					<i class="fas fa-arrow-right"></i>
+				</a>
+			</div>
+		</section>
+		<!-- About us section -->
+		<section class="about pb-sm-5 mb-sm-5" id="about">
+			<div class="container pt-5">
+				<div class="row">
+					<div class="col-sm-6">
+						<!-- About left -->
+						<div class="about-left mt-sm-5 pt-sm-5 pr-3">
+							<h3 class="zilla-slab wow slideInLeft" data-wow-delay="0.2s">Happiness does not come from doing easy work</h3>
+							<p class="noto-sans pt-3 wow slideInLeft" data-wow-delay="0.4s">The streak started in late October. Canelas 2010, an unheralded amateur soccer team, suddenly could not stop winning. It went 10 straight match without dropping a point, without so much as conceding a goal, a surge that brought the prospect of promotion out of its local league and into the comparative big time of the national .
+							</p>
+							<!-- Service and support section -->
+							<div class="row">
+								<div class="col-md-6 wow fadeInDown" data-wow-delay="0.5s">
+									<div class="service-about text-center mt-4">
+										<img src="images/icons/diamond.svg" alt="diamond_icon" class="svg">
+										<h4 class="zilla-slab mt-3">Pixel Perfect Design</h4>
+										<p>Aaron Judge, a 25-year-old Yanks rookie, finally offered somemne ence that he is, in fact.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6 wow fadeInDown" data-wow-delay="0.5s">
+									<div class="service-about text-center mt-4 mb-4">
+										<img src="images/icons/shield.svg" alt="shield_icon" class="svg">
+										<h4 class="zilla-slab mt-3">Awesome Support</h4>
+										<p>Aaron Judge, a 25-year-old Yanks rookie, finally offered somemne ence that he is, in fact.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<!-- About right section -->
+						<div class="about-right">
+							<!-- Workplace image for large device -->
+							<div class="worlplace_position_1 position-relative">
+								<img src="images/workplace_1.jpg" alt="workplace" class="wow slideInRight" data-wow-delay="0.1s">
+								<img src="images/workplace_2.jpg" alt="workplace" class="wow slideInRight" data-wow-delay="0.2s">
+								<img src="images/workplace_3.jpg" alt="workplace" class="wow slideInRight" data-wow-delay="0.3s">
+							</div>
+							<!-- Workplace images for small device -->
+							<div class="row workplace_position_2">
+								<div class="col-md-4">
+									<img src="images/workplace_1.jpg" alt="workplace" class="w-100 mb-4">
+								</div>
+								<div class="col-md-4">
+									<img src="images/workplace_2.jpg" alt="workplace" class="w-100 mb-4">
+								</div>
+								<div class="col-md-4">
+									<img src="images/workplace_3.jpg" alt="workplace" class="w-100 mb-4">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Services section  -->
+		<section class="services-section pt-3" id="services">
+			<div class="row w-100 pt-5">
+				<div class="col-lg-6 order-lg-2">
+					<!-- Right side -->
+						<div class="service-item">
+							<div class="row w-100">
+								<div class="col-4 col-sm-2 pt-4 text-center mt-4 services-left-img">
+									<img src="images/icons/briefcase.svg" alt="briefcase_logo" class="svg w-50">
+								</div>
+								<div class="col-8 col-md-10 mt-4 service-details">
+									<h4 class="zilla-slab">Digital Marketing</h4>
+									<p class="noto-sans">From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist.Aaron Judge, a 25-year-old Yank rookie, finally offered.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="service-item">
+							<div class="row w-100">
+								<div class="col-4 col-sm-2 pt-4 text-center mt-4 services-left-img">
+									<img src="images/icons/laptop.svg" alt="briefcase_logo" class="svg w-50">
+								</div>
+								<div class="col-8 col-md-10 mt-4 service-details">
+									<h4 class="zilla-slab">Digital Marketing</h4>
+									<p class="noto-sans">From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist.Aaron Judge, a 25-year-old Yank rookie, finally offered.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="service-item">
+							<div class="row w-100">
+								<div class="col-4 col-sm-2 pt-4 text-center mt-4 services-left-img">
+									<img src="images/icons/computer.svg" alt="briefcase_logo" class="svg w-50">
+								</div>
+								<div class="col-8 col-md-10 mt-4 service-details">
+									<h4 class="zilla-slab">Digital Marketing</h4>
+									<p class="noto-sans">From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist.Aaron Judge, a 25-year-old Yank rookie, finally offered.
+									</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="service-item">
+							<div class="row w-100">
+								<div class="col-4 col-sm-2 pt-4 text-center mt-4 services-left-img">
+									<img src="images/icons/bookmark.svg" alt="briefcase_logo" class="svg w-50">
+								</div>
+								<div class="col-8 col-md-10 mt-4 service-details">
+									<h4 class="zilla-slab">Digital Marketing</h4>
+									<p class="noto-sans">From a business perspective, it was not hard to understand why West Ham Unite found it impossible to resist.Aaron Judge, a 25-year-old Yank rookie, finally offered.
+									</p>
+								</div>
+							</div>
+						</div>
+				</div>
+				<div class="col-lg-6 order-lg-1 pt-5 pt-lg-0">
+					<!-- Left side -->
+					<div class="service-right">
+						<img src="images/services.jpg" alt="service_img" class="w-100 h-100 pl-4 pl-lg-0">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Our skill section -->
+		<section class="our-skill h-auto my-5" id="skills">
+			<!-- Section heading -->
+			<h3 class="zilla-slab text-center mt-sm-5">Our Skills</h3>
+			<p class="noto-sans text-center mt-3">The Rangers needed a jolt for their first home game of their second<br>series against the Ottawa Senators. Turning</p>
+			<div class="container py-5">
+				<div class="row">
+					<div class="col-lg-4 text-center pt-4 mt-5 mt-lg-0 wow bounceInLeft" data-wow-delay="0.1s">
+						<div class="chart position-relative" data-percent="90" data-scale-color="#ffb400">
+							<h4 class="text-center zilla-slab position-absolute">90%</h4>
+							<h5 class="zilla-slab text-center position-absolute">Web Design</h5>
+						</div>
+					</div>
+					<div class="col-lg-4 text-center pt-4 mt-5 mt-lg-0 wow bounceInLeft" data-wow-delay="0.3s">
+						<div class="chart" data-percent="95" data-scale-color="#ffb400">
+							<h4 class="text-center zilla-slab position-absolute">95%</h4>
+							<h5 class="zilla-slab text-center position-absolute">Graphic Design</h5>
+						</div>
+					</div>
+					<div class="col-lg-4 text-center pt-4 mt-5 mt-lg-0 wow bounceInLeft" data-wow-delay="0.5s">
+						<div class="chart" data-percent="84" data-scale-color="#ffb400">
+							<h4 class="text-center zilla-slab position-absolute">84%</h4>
+							<h5 class="zilla-slab text-center position-absolute">Digital Marketing</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Take to the contact page -->
+		<section class="contact-banner py-5 h-auto position-relative">
+			<img src="images/contact-banner.jpg" alt="contact_banner" class="w-100 h-100 position-absolute">
+			<!-- banner texts and button -->
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-lg-8 text-lg-left text-center">
+						<h3 class="zilla-slab text-light">Want to work with us ?  Just say hello.</h3>
+						<p class="noto-sans text-light mt-3">Writers and stars of Veep have responded incredulously to the news an Australian<br>politician required stitches after knocking himself unconscious .
+						</p>
+					</div>
+					<div class="col-lg-4 text-lg-right text-center">
+						<button class="btn btn-primary twist-btn zilla-slab mt-4">Say hello to us</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Some of our works section -->
+		<section class="our-works py-5 h-auto" id="works">
+			<!-- Section heading -->
+			<h3 class="zilla-slab text-center mt-sm-5">Our Works</h3>
+			<p class="noto-sans text-center mt-3">The Rangers needed a jolt for their first home game of their second<br>series against the Ottawa Senators. Turning</p>
+			<div class="container">
+				<div class="our-works grid-container mt-5">
+					<div class="works our-work-item1 position-relative wow slideInLeft">
+						<!-- Left side big work item section -->
+						<div class="work-item-size-big w-100 h-100 shadow">
+							<img src="images/skill_details_1.jpg" alt="skill_img" class="w-100 h-100">
+						</div>
+						<!-- work img filter -->
+						<div class="work-filter position-absolute w-100 h-100 text-light">
+							<div class="work-filter-content d-flex justify-content-center align-content-center">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+					<div class="works our-work-item2 position-relative wow slideInRight">
+						<!-- Right top side medium size work item section -->
+						<div class="work-item-size-medium w-100 h-100 shadow">
+							<img src="images/skill_details_2.jpg" alt="skill_img" class="w-100 h-100">
+						</div>
+						<!-- work img filter -->
+						<div class="work-filter position-absolute w-100 h-100 text-light">
+							<div class="work-filter-content d-flex align-items-center justify-content-center">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>
+					<div class="works our-work-item3 position-relative wow slideInRight" data-wow-delay="0.4s">
+						<div class="work-item-size-small w-100 h-100 shadow">
+							<img src="images/skill_details_3.jpg" alt="skill_img" class="w-100">
+						</div>
+						<!-- work img filter -->
+						<div class="work-filter position-absolute w-100 h-100 text-light">
+							<div class="work-filter-content d-flex align-items-center justify-content-center">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div>  
+					<div class="works our-work-item4 position-relative wow slideInRight" data-wow-delay="0.2s">
+						<div class="work-item-size-small w-100 h-100 shadow">
+							<img src="images/skill_details_4.jpg" alt="skill_img" class="w-100">
+						</div>
+						<!-- Skill img filter -->
+						<div class="work-filter position-absolute w-100 h-100 text-light">
+							<div class="work-filter-content d-flex align-items-center justify-content-center">
+								<i class="fas fa-eye"></i>
+							</div>
+						</div>
+					</div> 
+				</div>
+			</div>
+		</section>
+		<!-- Our team section -->
+		<section class="our-team py-5 h-auto" id="team">
+			<!-- Section heading -->
+			<h3 class="zilla-slab text-center mt-sm-5">Our Team</h3>
+			<p class="noto-sans text-center mt-3">The Rangers needed a jolt for their first home game of their second<br>series against the Ottawa Senators. Turning</p>
+			<div class="owl-carousel our-team-slider owl-theme mt-5">
+			    <div class="item">
+					<div class="card team-member-card mb-2 border-0">
+						<div class="card-body team-card pt-5">
+							<img src="images/team1.jpeg" alt="team" class="m-auto card-img-top">
+							<h4 class="zilla-slab text-center mt-4 mt-lg-5">John Doe</h4>
+							<p class="noto-sans text-center">Web developer</p>
+							<p class="noto-sans text-center">A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sand storm slammed into the Chinese.
+							</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="card team-member-card mb-2 border-0">
+						<div class="card-body team-card pt-5">
+							<img src="images/team2.jpeg" alt="team" class="m-auto card-img-top">
+							<h4 class="zilla-slab text-center mt-4 mt-lg-5">John Doe</h4>
+							<p class="noto-sans text-center">Web developer</p>
+							<p class="noto-sans text-center">A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sand storm slammed into the Chinese.
+							</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="card team-member-card mb-2 border-0">
+						<div class="card-body team-card pt-5">
+							<img src="images/team3.jpeg" alt="team" class="m-auto card-img-top">
+							<h4 class="zilla-slab text-center mt-4 mt-lg-5">John Doe</h4>
+							<p class="noto-sans text-center">Web developer</p>
+							<p class="noto-sans text-center">A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sand storm slammed into the Chinese.
+							</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="card team-member-card mb-2 border-0">
+						<div class="card-body team-card pt-5">
+							<img src="images/team4.jpeg" alt="team" class="m-auto card-img-top">
+							<h4 class="zilla-slab text-center mt-4 mt-lg-5">John Doe</h4>
+							<p class="noto-sans text-center">Web developer</p>
+							<p class="noto-sans text-center">A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sand storm slammed into the Chinese.
+							</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="card team-member-card mb-2 border-0">
+						<div class="card-body team-card pt-5">
+							<img src="images/team5.jpeg" alt="team" class="m-auto card-img-top">
+							<h4 class="zilla-slab text-center mt-4 mt-lg-5">John Doe</h4>
+							<p class="noto-sans text-center">Web developer</p>
+							<p class="noto-sans text-center">A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sand storm slammed into the Chinese.
+							</p>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+					<div class="card team-member-card mb-2 border-0">
+						<div class="card-body team-card pt-5">
+							<img src="images/team6.jpeg" alt="team" class="m-auto card-img-top">
+							<h4 class="zilla-slab text-center mt-4 mt-lg-5">John Doe</h4>
+							<p class="noto-sans text-center">Web developer</p>
+							<p class="noto-sans text-center">A putrid, nicotine-shaded mist loomed over Beijing on Thursday after a massive sand storm slammed into the Chinese.
+							</p>
+						</div>
+					</div>
+			    </div>
+			</div>
+		</section>
+		<!-- Testimonial section -->
+		<section class="testimonial pt-5 pb-5 h-auto position-relative" id="testimonial">
+			<img src="images/team_work.jpg" alt="team_work.jpg" class="w-100 h-100 position-absolute">
+			<!-- Section heading -->
+			<h3 class="zilla-slab text-center text-light mt-sm-5">Testimonial</h3>
+			<p class="noto-sans text-center text-light mt-3">The Rangers needed a jolt for their first home game of their second<br>series against the Ottawa Senators. Turning</p>
+			<div class="container mt-md-5 mt-3">
+				<div class="row">
+					<!-- Testimonial's -->
+				</div>
+				<div class="owl-carousel testimonial-slider owl-theme">
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="card">
+							<div class="card-body">
+								<h1 class="zilla-slab text-center"><i>"</i></h1>
+								<h5 class="zilla-slab text-center"><i>“ Writers and stars of Veep have responded incred the news an Australian politician required stitches after knocking himself unconscious while laugh the new season. ”</i>
+								</h5>
+								<h4 class="zilla-slab text-center mt-4">John Doe</h4>
+								<p class="noto-sans text-center">Capco</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Sponsor section  -->
+		<section class="sponsor py-5" id="sponsor">
+			<div class="container">
+				<!-- Sponsor link -->
+				<div class="sponsor-img d-flex flex-row justify-content-around flex-wrap align-items-baseline py-4">
+					<a href="#" class="mt-4 mr-3"><img src="images/sponsor/evato.png" alt="evato" class="wow bounceInLeft" data-wow-delay="0.1s"></a>
+					<a href="#" class="mt-4 mr-3"><img src="images/sponsor/hungama.png" alt="hungama" class="wow bounceInLeft" data-wow-delay="0.2s"></a>
+					<a href="#" class="mt-4 mr-3"><img src="images/sponsor/moserbaer.png" alt="moserbaer" class="wow bounceInLeft" data-wow-delay="0.3s"></a>
+					<a href="#" class="mt-4 mr-3"><img src="images/sponsor/woocommerce.png" alt="woocommerce" class="wow bounceInLeft" data-wow-delay="0.4s"></a>
+					<a href="#" class="mt-4 mr-3"><img src="images/sponsor/facebook.png" alt="facebook" class="wow bounceInLeft" data-wow-delay="0.5s"></a>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- Footer section -->
+	<footer class="pt-5 h-auto" id="footer">
+		<div class="container pt-5 pb-md-5">
+			<div class="row w-100">
+				<!-- Footer short about left side -->
+				<dv class="col-md-4">
+					<div class="footer-logo d-flex flex-row">
+						<img src="images/icons/logo.png" alt="site_logo py-0 my-0">
+						<a href="" class="zilla-slab text-decoration-none ml-2 py-0 my-0">twist</a>
+					</div>
+					<div class="footer-description mt-md-5 mt-4 text-left">
+						<p class="noto-sans">Saudi Arabia has been accused of using anti-terror laws to suppress free expression and failing to carry out independent inquiries into its Yemen.
+						</p>
+					</div>
+				</dv>
+				<!-- Footer center section -->
+				<dv class="col-md-4">
+					<!-- Footer menu -->
+					<div class="footer-menu d-flex justify-content-around mt-md-5 mt-4">
+						<ul class="list-unstyled">
+							<li><a href="#" class="zilla-slab text-decoration-none">About</a></li>
+							<li><a href="#" class="zilla-slab text-decoration-none">Services</a></li>
+							<li><a href="#" class="zilla-slab text-decoration-none">Team</a></li>
+							<li><a href="#" class="zilla-slab text-decoration-none">Privancy Policy</a></li>
+						</ul>
+						<ul class="list-unstyled">
+							<li><a href="#" class="zilla-slab text-decoration-none">Testimonial</a></li>
+							<li><a href="#" class="zilla-slab text-decoration-none">Support</a></li>
+							<li><a href="#" class="zilla-slab text-decoration-none">Contact Us</a></li>
+							<li><a href="#" class="zilla-slab text-decoration-none">Blog</a></li>
+						</ul>
+					</div>
+				</dv>
+				<!-- Footer right section -->
+				<dv class="col-md-4">
+					<!-- Social link -->
+					<div class="footer-social-menu mt-md-5 mt-4">
+						<h3 class="zilla-slab">Follow Us</h3>
+						<div class="social-icon mt-3">
+							<a href="#"><i class="fab fa-facebook-f text-center mr-lg-2"></i></a>
+							<a href="#"><i class="fab fa-twitter text-center mr-lg-2"></i></a>
+							<a href="#"><i class="fab fa-linkedin-in text-center mr-lg-2"></i></a>
+							<a href="#"><i class="fab fa-pinterest-p text-center mr-lg-2"></i></a>
+						</div>
+					</div>
+				</dv>
+			</div>
+			<p class="noto-sans text-center pt-5">&copy; copyright by <a href="http://www.developermaruf.com" target="_blank">DEVELOPERMARUF.COM</a></p>
+		</div>
+	</footer>
+	<!-- Model section-->
+	<div class="modal fade" id="searchModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<!-- Model header -->
+				<div class="modal-header text-center">
+					<form class="w-100" action="#">
+						<div class="row w-100">
+							<div class="col-8 col-sm-10">
+								<input type="text" class="form-control w-100" placeholder="Search...">
+							</div>
+							<div class="col-4 col-sm-2">
+								<input type="submit" value="Go" class="btn btn-primary w-100">
+							</div>
+						</div>
+					</form>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Javascript's -->
+	<script src="accets/js/vendor/jquery-3.3.1.min.js"></script>
+	<script src="accets/js/vendor/owl.carousel.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="accets/js/vendor/jquery.easypiechart.min.js"></script>
+	<script src="accets/js/vendor/wow.min.js"></script>
+	<script src="accets/js/plugins.js"></script>
+	<script src="accets/js/main.js"></script>
+
+	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+	<!--   <script>
+	window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+	ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
+</body>
+
+</html>
